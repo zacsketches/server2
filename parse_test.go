@@ -6,6 +6,8 @@ import (
 	"testing"
 )
 
+// TODO: Write test for a quiet http.writer if there is an error
+
 // Test of correctly formed input
 func TestParseCycles(t *testing.T) {
 	tests := map[string]int{
