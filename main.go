@@ -2,12 +2,12 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"math"
 	"net/http"
 )
 
+//I should probably use the "comma is ok" idiom here instead of MaxInt
 const invalidCycles = math.MaxInt64
 
 var myParams = lissajousParameters{
@@ -34,12 +34,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	//test for the lissajous paramater keys in the query string
 	myParams.updateParams(r)
 
-	//test for a specific key in the form
-	cycles, err := parseCycles(r)
-	if err != nil {
-		log.Println("Unable to parse query string for cycles. ", err)
-	}
-	if cycles != invalidCycles {
-		fmt.Fprintf(w, "Run %d cycles!\n", cycles)
-	}
+	//write back to w with a lissjous GIF
+	myParams.write(w)
 }

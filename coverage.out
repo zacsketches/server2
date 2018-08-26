@@ -1,0 +1,27 @@
+mode: set
+gopl.io/ch1/server2/parse.go:11.48,13.13 2 1
+gopl.io/ch1/server2/parse.go:17.2,18.16 2 1
+gopl.io/ch1/server2/parse.go:21.2,21.15 1 1
+gopl.io/ch1/server2/parse.go:13.13,16.3 2 1
+gopl.io/ch1/server2/parse.go:18.16,20.3 1 1
+gopl.io/ch1/server2/lissajous.go:20.63,22.27 1 1
+gopl.io/ch1/server2/lissajous.go:22.27,23.10 1 1
+gopl.io/ch1/server2/lissajous.go:24.22,26.18 2 1
+gopl.io/ch1/server2/lissajous.go:29.4,29.18 1 1
+gopl.io/ch1/server2/lissajous.go:30.19,32.18 2 1
+gopl.io/ch1/server2/lissajous.go:35.4,35.15 1 1
+gopl.io/ch1/server2/lissajous.go:36.26,38.18 2 1
+gopl.io/ch1/server2/lissajous.go:41.4,41.22 1 1
+gopl.io/ch1/server2/lissajous.go:42.21,44.18 2 1
+gopl.io/ch1/server2/lissajous.go:47.4,47.17 1 1
+gopl.io/ch1/server2/lissajous.go:48.11,49.65 1 1
+gopl.io/ch1/server2/lissajous.go:26.18,28.5 1 0
+gopl.io/ch1/server2/lissajous.go:32.18,34.5 1 0
+gopl.io/ch1/server2/lissajous.go:38.18,40.5 1 0
+gopl.io/ch1/server2/lissajous.go:44.18,46.5 1 0
+gopl.io/ch1/server2/main.go:19.13,21.79 2 0
+gopl.io/ch1/server2/main.go:24.2,24.55 1 0
+gopl.io/ch1/server2/main.go:21.79,23.3 1 0
+gopl.io/ch1/server2/main.go:27.54,30.16 2 0
+gopl.io/ch1/server2/main.go:34.2,34.26 1 0
+gopl.io/ch1/server2/main.go:30.16,32.3 1 0
